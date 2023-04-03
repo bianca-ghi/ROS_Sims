@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find turtlebot_move)/launch/turtlebot_move_start_service.launch"/>
+    <node pkg="turtlebot_move" type="turtlebot_move_client.py" name="turtlebot_move_service_client"  output="screen">
+    </node>
+</launch>

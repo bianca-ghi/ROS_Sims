@@ -1,0 +1,5 @@
+<launch>
+    <!-- Start Service Server for move_direction service -->
+    <node pkg="turtlebot_move" type="turtlebot_move_server.py" name="turtlebot_move_service_server"  output="screen">
+    </node>
+</launch>
